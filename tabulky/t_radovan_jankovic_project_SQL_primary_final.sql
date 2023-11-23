@@ -1,4 +1,4 @@
-CREATE TABLE t_radovan_jankovic_project_sql_primary_final AS
+CREATE TABLE t_radovan_jankovic_project_sql_primary_final1 AS
 SELECT 
 mzdy.payroll_year AS 'rok',
 ceny.category_code AS 'kod_potraviny',
@@ -14,5 +14,5 @@ JOIN czechia_payroll AS mzdy
 	ON YEAR (ceny.date_from) = mzdy.payroll_year 
 JOIN czechia_payroll_industry_branch AS odvetvi
 	ON mzdy.industry_branch_code = odvetvi.code 
-WHERE mzdy.value_type_code=5958 AND mzdy.unit_code=200 AND ceny.region_code IS NULL AND mzdy.industry_branch_code IS NOT NULL
+WHERE mzdy.value_type_code=5958 AND mzdy.unit_code=200 AND mzdy.calculation_code=200 AND ceny.region_code IS NULL AND mzdy.industry_branch_code IS NOT NULL
 GROUP BY mzdy.payroll_year, ceny.category_code, mzdy.industry_branch_code;
