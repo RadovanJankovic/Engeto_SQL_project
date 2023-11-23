@@ -1,4 +1,4 @@
-CREATE TABLE t_radovan_jankovic_project_sql_primary_final1 AS
+CREATE TABLE t_radovan_jankovic_project_sql_primary_final AS
 SELECT 
 mzdy.payroll_year AS 'rok',
 ceny.category_code AS 'kod_potraviny',
