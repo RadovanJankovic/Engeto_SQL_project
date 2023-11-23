@@ -15,7 +15,7 @@ V priebehu rokov 2006 až 2018 naprieč odvetviami mzdy prevažne stúpali. Vysk
 V segmente "Těžba a dobývání" došlo k medziročnému poklesu miezd aj v rokoch 2014 a 2016. Odvetvia "Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu" sa pokles dotkol v roku 2015.
 
 #### 2) Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
-Za aritmetický priemer miezd naprieč odvetviam si bolo možné kúpiť:
+Za aritmetický priemer miezd naprieč odvetviami si bolo možné kúpiť:
 - 1 323 kilogramov chleba a 1 512 litrov mlieka v roku 2006,
 - 1 379 kilogramov chleba a 1 655 litrov mlieka v roku 2018.
 
