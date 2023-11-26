@@ -21,8 +21,8 @@ WITH krajne_hodnoty AS (
 	)
 SELECT
 t2.rok,
-ROUND (AVG ((t2.priemer_mzdy_rok)/t2.priemer_cena_zbozi)) AS "mnozstvo chleba",
-ROUND (AVG ((t3.priemer_mzdy_rok)/t3.priemer_cena_zbozi)) AS "mnozstvo mleka"
+ROUND (AVG (t2.priemer_mzdy_rok/t2.priemer_cena_zbozi)) AS "mnozstvo chleba",
+ROUND (AVG (t3.priemer_mzdy_rok/t3.priemer_cena_zbozi)) AS "mnozstvo mleka"
 FROM t_radovan_jankovic_project_sql_primary_final t2
 JOIN krajne_hodnoty kh ON t2.rok=kh.najstarsia_hodnota OR t2.rok=kh.najnovsia_hodnota
 JOIN t_radovan_jankovic_project_sql_primary_final t3 ON t3.rok=t2.rok 
